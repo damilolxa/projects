@@ -1,0 +1,3 @@
+# Logfile created on 2024-04-02 00:26:17 +0000 by logger.rb/v1.5.3
+I, [2024-04-02 00:26:17  #6774]  INFO -- : This is Lab5 for oadegbu1! They are using version 1.3 of create_transcribe_job.rb
+I, [2024-04-02 00:26:17  #6774]  INFO -- : Creating new transcription job!

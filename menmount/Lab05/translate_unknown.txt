@@ -1,0 +1,1 @@
+Questo è un test del rilevamento automatico della funzione linguistica per AWS Translate utilizzando AWS Comprehend.

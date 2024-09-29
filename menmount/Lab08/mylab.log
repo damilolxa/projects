@@ -1,0 +1,7 @@
+# Logfile created on 2024-04-23 00:13:02 +0000 by logger.rb/v1.5.3
+I, [2024-04-23 00:13:02  #6842]  INFO -- : This is Lab8 for oadegbu1! They are using version 1.2 of comprehend4.rb
+I, [2024-04-23 00:13:02  #6842]  INFO -- : Job Creation Response: {:job_id=>"1697be94ad9f4fa37a3e6b7a962fa859", :job_arn=>"arn:aws:comprehend:us-east-1:767398022705:topics-detection-job/1697be94ad9f4fa37a3e6b7a962fa859", :job_status=>"SUBMITTED"}
+I, [2024-04-23 00:13:02  #6842]  INFO -- : Job ID: 1697be94ad9f4fa37a3e6b7a962fa859
+I, [2024-04-23 00:13:12  #6842]  INFO -- : Job Check Response: {:topics_detection_job_properties=>{:job_id=>"1697be94ad9f4fa37a3e6b7a962fa859", :job_arn=>"arn:aws:comprehend:us-east-1:767398022705:topics-detection-job/1697be94ad9f4fa37a3e6b7a962fa859", :job_name=>"ITEC427", :job_status=>"IN_PROGRESS", :message=>nil, :submit_time=>2024-04-23 00:13:02 3430941/4194304 +0000, :end_time=>nil, :input_data_config=>{:s3_uri=>"s3://menmountbucket/sample.txt", :input_format=>"ONE_DOC_PER_LINE", :document_reader_config=>nil}, :output_data_config=>{:s3_uri=>"s3://menmountbucket/767398022705-TOPICS-1697be94ad9f4fa37a3e6b7a962fa859/output/output.tar.gz", :kms_key_id=>nil}, :number_of_topics=>10, :data_access_role_arn=>"arn:aws:iam::767398022705:role/ComprehendRole", :volume_kms_key_id=>nil, :vpc_config=>nil}}
+I, [2024-04-23 00:13:12  #6842]  INFO -- : Polling the status of job...
+I, [2024-04-23 00:13:12  #6842]  INFO -- : Current Job Status: IN_PROGRESS
